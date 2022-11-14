@@ -34,7 +34,7 @@ p {
     flex: 1 1 700px;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgb(48, 48, 48);
-    background-color: rgba(245, 245, 245, 0.651);
+    background-color: rgba(245, 245, 245, 0.247);
     padding: 15px;
     height: 485px;
 }
@@ -83,7 +83,7 @@ p {
     align-items: center;
     gap: 15px;
     padding: 10px;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(192, 192, 192, 0.651);
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 4px;
@@ -94,7 +94,7 @@ p {
 }
 
 .container-vid .video-list-container .list:hover {
-    background-color: rgb(73, 73, 73);
+    background-color: rgba(73, 73, 73, 0.514);
 }
 
 .container-vid .video-list-container .list .active {
