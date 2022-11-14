@@ -1,0 +1,182 @@
+#carrusel-caja {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    height: 500px;
+    width: 500%;
+    /*Tamaño de la caja*/
+}
+
+#carrusel-contenido {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+.imagenes {
+    height: 500px;
+    width: 100%;
+}
+
+.carrusel-elemento {
+    float: left;
+    width: 20%;
+}
+
+/*Trancicion de imagenes*/
+@-moz-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+
+    9.09% {
+        margin-left: 0;
+    }
+
+    18.18% {
+        margin-left: -100%;
+    }
+
+    27.27% {
+        margin-left: -100%;
+    }
+
+    36.36% {
+        margin-left: -200%;
+    }
+
+    45.45% {
+        margin-left: -200%;
+    }
+
+    54.54% {
+        margin-left: -300%;
+    }
+
+    63.63% {
+        margin-left: -300%;
+    }
+
+    72.72% {
+        margin-left: -300%;
+    }
+
+    81.81% {
+        margin-left: -400%;
+    }
+
+    90.90% {
+        margin-left: -400%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+
+}
+
+@-webkit-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+
+    9.09% {
+        margin-left: 0;
+    }
+
+    18.18% {
+        margin-left: -100%;
+    }
+
+    27.27% {
+        margin-left: -100%;
+    }
+
+    36.36% {
+        margin-left: -200%;
+    }
+
+    45.45% {
+        margin-left: -200%;
+    }
+
+    54.54% {
+        margin-left: -300%;
+    }
+
+    63.63% {
+        margin-left: -300%;
+    }
+
+    72.72% {
+        margin-left: -300%;
+    }
+
+    81.81% {
+        margin-left: -400%;
+    }
+
+    90.90% {
+        margin-left: -400%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+
+    9.09% {
+        margin-left: 0;
+    }
+
+    18.18% {
+        margin-left: -100%;
+    }
+
+    27.27% {
+        margin-left: -100%;
+    }
+
+    36.36% {
+        margin-left: -200%;
+    }
+
+    45.45% {
+        margin-left: -200%;
+    }
+
+    54.54% {
+        margin-left: -300%;
+    }
+
+    63.63% {
+        margin-left: -300%;
+    }
+
+    72.72% {
+        margin-left: -300%;
+    }
+
+    81.81% {
+        margin-left: -400%;
+    }
+
+    90.90% {
+        margin-left: -400%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
